@@ -14,6 +14,7 @@
             Console.WriteLine("7 for a Swap Number ");
             Console.WriteLine("8 for a even and odd number ");
             Console.WriteLine("9 for a Vowel and Consonant");
+            Console.WriteLine("10 for a LargestamongthreeNumber");
             int function = Convert.ToInt32(Console.ReadLine());
 
 
@@ -63,6 +64,11 @@
                 case 9:
                     VowelConsonant vowelConsonant = new VowelConsonant();
                     vowelConsonant.vowConsonant();
+                    break;
+
+                case 10:
+                    Largest_Three_Number large = new Largest_Three_Number();
+                    large.largeNum();
                     break;
             }
         }
